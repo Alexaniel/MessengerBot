@@ -1,0 +1,20 @@
+Configuración de Messennger y Webhooks
+
+Requisitos:
+- Servicio https no con certificado autovalidado (Se recomienda Heroku y posiblemente firebase)
+- Cuenta de Desarrollador
+- Página de facebook para realizar pruebas
+
+El Webhook permite la comunicación con facebook y recibe los mensajes
+y se verifica que el servicio se encuentre levantado.
+Una vez que se valida se verifica las respuestas con el token y el traspaso de mensajes.
+
+Token de verificación
+EAAWhIC9QMi0BAMl2Ak1WmmORikHJawZBbH3bU09nCM0w6ZBvIagWZAfNPSLKHf5S7PH8LaROM4AH8M3z1edHwSQuMkLUNZAGx64KZArUFK4bWs2eUs9YKCtfnAstnlX5EUN2ZAyR5WM9c9eDnSbtvY8ZA4d5fqm1pVud6x5UPrZBuDkvIiq0czyC
+- express
+- node js
+- 
+
+Habilitar el entorno de pruebas
+heroku logs --tail
+

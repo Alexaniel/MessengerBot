@@ -1,0 +1,75 @@
+curl -X POST -H "Content-Type: application/json" -d '{
+    "get_started": {
+        "payload": "EMPEZAR"
+    } 
+}' "https://graph.facebook.com/v7.0/me/messenger_profile?access_token=EAAHqS8LndRUBABjDcSNuUcoOXCEWdP0t8z1A0eY9Y1ypfj2AgnUpHQOwTGbe68oGMefkydv4jomKh4ZBJMa2ryIgcWSErGD1VidrEzPAl56kZA3Ytv4sKbcxO3ltPGQa4Qxkf0mHCxT6JuMM4llzO6SQiGk4noSWWO1e6Vw9DmdDf8vMYj"
+
+
+Para colocar el botón de iniciar
+curl -X POST -H "Content-Type: application/json" -d '{
+    "greeting": [
+        {
+            "locale": "default",
+            "text": "Hola {{user_first_name}}! Te damos la bienvenida al servicio automatizado de Nettplus. Aquí podrás recibir información de nuestros servicios. Toca 'Empezar' para usar nuestras funciones."
+        }
+    ]
+}' "https://graph.facebook.com/v7.0/me/messenger_profile?access_token=EAAHqS8LndRUBABjDcSNuUcoOXCEWdP0t8z1A0eY9Y1ypfj2AgnUpHQOwTGbe68oGMefkydv4jomKh4ZBJMa2ryIgcWSErGD1VidrEzPAl56kZA3Ytv4sKbcxO3ltPGQa4Qxkf0mHCxT6JuMM4llzO6SQiGk4noSWWO1e6Vw9DmdDf8vMYj"
+
+curl -X POST -H "Content-Type: application/json" -d '{
+    "persistent_menu":[
+        {
+            "locale": "default",
+            "composer_input_disabled": false,
+            "call_to_actions": [
+                {
+                    "title": "Servicios Nettplus",
+                    "type": "nested",
+                    "call_to_actions": [
+                        {
+                            "title": "Servicio de Ventas",
+                            "type": "postback",
+                            "payload": "VENTAS_PAYLOAD"
+                        },
+                        {
+                            "title": "Pago de Servicios",
+                            "type": "postback",
+                            "payload": "PAGO_PAYLOAD"
+                        },
+                        {
+                            "title": "Soporte Técnico",
+                            "type": "postback",
+                            "payload": "SOPORTE_PAYLOAD"
+                        },
+                        {
+                            "title": "Solicitar Agente",
+                            "type": "postback",
+                            "payload": "SOLICITAR_AGENTE_PAYLOAD"
+                        },
+                    ]
+                },
+                {
+                    "title": "Información",
+                    "type": "nested",
+                    "call_to_actions": [
+                        {
+                            "title": "Contacto",
+                            "type": "postback",
+                            "payload": "CONTACTO_PAYLOAD"
+                        },
+                        {
+                            "title": "Acerca de Nettplus",
+                            "type": "postback",
+                            "payload": "ACERCA_PAYLOAD"
+                        }
+                    ]
+                },
+                {
+                    "type": "web_url",
+                    "title": "Sitio Web",
+                    "url": "https://nettplus.net/",
+                    "webview_height_ratio": "full"
+                }
+            ]
+        }
+    ]
+}' "https://graph.facebook.com/v7.0/me/messenger_profile?access_token=EAAHqS8LndRUBABjDcSNuUcoOXCEWdP0t8z1A0eY9Y1ypfj2AgnUpHQOwTGbe68oGMefkydv4jomKh4ZBJMa2ryIgcWSErGD1VidrEzPAl56kZA3Ytv4sKbcxO3ltPGQa4Qxkf0mHCxT6JuMM4llzO6SQiGk4noSWWO1e6Vw9DmdDf8vMYj" 

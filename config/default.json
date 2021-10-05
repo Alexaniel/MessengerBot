@@ -1,0 +1,8 @@
+{
+    "pageID": "YOUR_PAGE_ID",
+    "appID": "YOUR_APP_ID",
+    "appSecret": "YOUR_APP_SECRET",
+    "pageAccessToken": "YOUR_PAGE_ACCESS_TOKEN",
+    "validationToken": "YOUR_VERIFY_TOKEN",
+    "serverURL": "YOUR_APP_URL"
+}

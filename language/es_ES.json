@@ -1,0 +1,185 @@
+{
+	"empezar": {
+		"bienvenida": "¡Bienvenido {{user_first_name}}! Soy el asistente virtual de Nettplus.",
+		"guia": "Utiliza el menú en la parte inferior para navegar en nuestras funciones.",
+		"ayuda": "¿Cómo podemos ayudarte hoy?"
+	},
+	"menu": {
+		"ventas": "Ventas",
+		"pagos": "Pagos",
+		"soporte": "Soporte",
+		"reclamos": "Reclamos",
+		"agente": "Solicitar Agente"
+	},
+	"ventas": {
+		"saludo": "Bienvenido al departamento de ventas. Aquí podrás contratar nuestros servicios de internet.",
+		"guia": "¿Qué deseas hacer?",
+		"menu": {
+			"planes": "Ver Planes",
+			"contratar": "Contratar Servicio",
+			"agente": "Solicitar Agente"
+		},
+		"notificar": {
+			"sms1": "Gracias por contratar nuestro servicio de internet. En breve uno de nuestros agentes se comunicará contigo. Gracias por preferir Nettplus."
+		},
+		"info": {
+			"title": "Información de Pagos",
+			"subtitle": "Puedas realizar tus pagos en cualquiera de estos bancos y luego notificarlo en la opción de pagos."
+		},
+		"planes": {
+			"title": "Tenemos los mejores planes que se adaptan a tus necesidades, con Fiberplus, la mejor fibra del Ecuador.",
+			"q_pregunta": "¿Deseas contratar este plan?",
+			"plan1": {
+				"title": "Plan Ideal",
+				"subtitle": "40% de descuento en instalación",
+				"img": "https://nettplus.net/img/mgs_img/Plan1.png",
+				"precio": "$23,41 inc. iva",
+				"promo": "No hay promoción",
+				"descuento": "40% de descuento en instalación",
+				"condiciones": "No hay condiciones del servicio"
+			},
+			"plan2": {
+				"title": "Plan Ideal Plus",
+				"subtitle": "16% de Descuento válido por 3 meses + 40% de descuento en instalación",
+				"img": "https://nettplus.net/img/mgs_img/Plan2.png",
+				"precio": "$24,90 + iva ",
+				"promo": "$23,41 inc. iva",
+				"descuento": "16% de Descuento válido por 3 meses + 40% de descuento en instalación",
+				"condiciones": "*Aplica con débito o tarjeta de crédito"
+			},
+			"plan3": {
+				"title": "Plan Premier",
+				"subtitle": "20% de Descuento válido por 3 meses + 40% de descuento en instalación",
+				"img": "https://nettplus.net/img/mgs_img/Plan3.png",
+				"precio": "$29,90 + iva",
+				"promo": "$26,79 inc. iva",
+				"descuento": "20% de Descuento válido por 3 meses + 40% de descuento en instalación",
+				"condiciones": "*Aplica con débito o tarjeta de crédito"
+			},
+			"plan4": {
+				"title": "Plan Premier Plus",
+				"subtitle": "25% de Descuento válido por 6 meses + 40% de descuento en instalación",
+				"img": "https://nettplus.net/img/mgs_img/Plan4.png",
+				"precio": "$34,90 + iva",
+				"promo": "$29,32 inc. iva",
+				"descuento": "25% de Descuento válido por 6 meses + 40% de descuento en instalación",
+				"condiciones": "*Aplica con tarjeta de crédito y cuenta corriente"
+			},
+			"plan5": {
+				"title": "Plan Nitro",
+				"subtitle": "25% de Descuento válido por 6 meses + 40% de descuento en instalación",
+				"img": "https://nettplus.net/img/mgs_img/Plan5.png",
+				"precio": "$49,90 + iva",
+				"promo": "$41,92 inc. iva",
+				"descuento": "25% de Descuento válido por 6 meses + 40% de descuento en instalación",
+				"condiciones": "*Aplica con tarjeta de crédito y cuenta corriente"
+			},
+			"detalle": "Ver Detalle del Plan"
+		},
+		"contratar": {
+			"advs": "*Inicio del proceso de contratación de Plan de Internet",
+			"mensaje": "Usted ha seleccionado"
+		},
+		"metodos": {
+			"inicio": "¿Por qué método de pago desea contratar el servicio?",
+			"mtd1": {
+				"nombre": "Banca Electrónica",
+				"op": {
+					"1": "ventanillas",
+					"2": "tiendas de barrio (Mi Vecino)"
+				},
+				"descripcion": "Puedes realizar el pago con tu número de cédula del cliente, indicando el servicio Nettplus",
+				"banco": {
+					"1": "Banco de Pichincha (Cód. 28258)",
+					"2": "Banco de Loja (2900691879)",
+					"3": "CoopMego (401010785657)"
+				}
+			},
+			"mtd2": {
+				"nombre": "Pago con Tarjeta",
+				"op": {
+					"1": "Tarjeta de Crédito",
+					"2": "Tarjeta de Débito"
+				},
+				"descripcion": "Puedes realizar el pago con ",
+				"tipo_tarjeta": {
+					"1": {
+						"nombre": "VISA",
+						"info": "Información o enlace"
+					},
+					"2": {
+						"nombre": "MASTERCARD",
+						"info": "Información o enlace"
+					}
+				}
+			},
+			"mtd3": {
+				"nombre": "Transferencia Bancaria",
+				"op": {
+					"1": {
+						"nombre": "Banco del Pichincha",
+						"numero": "Cta. Cte. #3492053604"
+					},
+					"2": {
+						"nombre": "Banco de Loja",
+						"numero": "Cta. Cte. #2900691879"
+					}
+				},
+				"descripcion": "La transferencia bancaria la puedes realizad en los siguientes bancos",
+				"datos": {
+					"nombre": "Necusoft Cia. Ltda.",
+					"ruc": "1191714268001",
+					"email": "cobranzasnettplus@gmail.com",
+					"desc": "Colocar en la descripción el número de cédula del cliente"
+				}
+			}
+		},
+		"confirmacion": {
+			"inicio": "¿Desea confirmar la contratación del plan de internet?",
+			"op": {
+				"1": "Si, por favor",
+				"2": "No, gracias",
+				"3": "Salir"
+			}
+		}
+
+	},
+	"pagos": {
+		"attachment": "Gracias por enviar su comprobante de pago, un agente comprobará el recibo y te notificaremos su validación.",
+		"no_attachment": "Por favor, envía un a imagen de tu comprobante."
+	},
+	"soporte": {},
+	"fallback": {
+		"any": "Lo siento, pero no reconozco '{{message}}'. Asegúrate de que tu mensaje este correctamente escrito"
+	},
+	"v": {
+		"1": "que planes tiene",
+		"2": "que planes de internet",
+		"3": "me gustaría conocer sus planes",
+		"4": "quiero un plan de internet",
+		"5": "necesito internet",
+		"6": "necesito contratar el servicio",
+		"7": "quiero el plan de internet",
+		"8": "quiero contratar internet",
+		"9": "necesito contratar sus servicios",
+		"10": "quiero contratar su servicio",
+		"11": "quiero contratar",
+		"12": "quiero contratar sus servicios",
+		"13": "necesito contratar el servicio"
+	},
+	"p": {
+		"1": "como puedo confirmar el pago",
+		"2": "como hago para pagar",
+		"3": "donde puedo pagar",
+		"4": "quiero pagar",
+		"5": "quiero confirmar el pago",
+		"6": "ya contraté",
+		"7": "me gustaria cancelar el mes",
+		"8": "me gustaria cancelar de",
+		"9": "puedo efectuar el",
+		"10": "que valor tengo que cancelar por el servicio"
+	},
+	"s": {
+		"1": "no tengo internet"
+	}
+}
